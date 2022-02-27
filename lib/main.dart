@@ -74,7 +74,12 @@ class MyApp extends StatelessWidget {
               Container(
                 height: 5.0,
               ),
-              Text("Forget password?")
+              TextButton(
+                  onPressed: (){},
+                  style: TextButton.styleFrom(
+                    primary: Colors.black,
+                  ),
+                  child: Text("Forget password?"))
             ],
           ),
         ),
